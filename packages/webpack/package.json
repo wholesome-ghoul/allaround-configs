@@ -1,6 +1,6 @@
 {
   "name": "@allaround/configs-webpack",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "AllAround webpack configuration",
   "author": "Wholesome Ghoul <wholesome.ghoul@gmail.com>",
   "publishConfig": {
@@ -11,5 +11,5 @@
   "files": [
     "dist/**/*"
   ],
-  "scripts": { }
+  "scripts": {}
 }
