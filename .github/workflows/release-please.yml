@@ -31,6 +31,13 @@ jobs:
           node-version: 18
           registry-url: 'https://registry.npmjs.org'
 
+      - name: Authenticate with Registry
+        run: |
+          echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" >> .npmrc
+          npm whoami
+        env:
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+
       - name: Build Packages
         if: ${{ steps.release.outputs.releases_created }}
         run: |
@@ -41,6 +48,5 @@ jobs:
         if: ${{ steps.release.outputs.releases_created }}
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
         run: |
           npx lerna publish from-package --no-push --no-private --yes
