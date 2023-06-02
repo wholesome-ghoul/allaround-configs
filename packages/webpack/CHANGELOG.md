@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.7.0](https://github.com/wholesome-ghoul/allaround-configs/compare/configs-webpack-v1.6.0...configs-webpack-v1.7.0) (2023-06-02)
+
+
+### Features
+
+* test release wtf ([ce139a5](https://github.com/wholesome-ghoul/allaround-configs/commit/ce139a5758ead2d5ce2cec16af9266d0ffe7a653))
+
 ## [1.6.0](https://github.com/wholesome-ghoul/allaround-configs/compare/configs-webpack-v1.5.0...configs-webpack-v1.6.0) (2023-06-02)
 
 
