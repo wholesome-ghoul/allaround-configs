@@ -49,10 +49,5 @@ jobs:
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
         run: |
-          npx lerna publish from-package --no-push --no-private --no-verify-access --yes
-
-      - run: npm whoami
-        if: ${{ steps.release.outputs.releases_created }}
-      - run: cat .npmrc
-        if: ${{ steps.release.outputs.releases_created }}
+          npx lerna publish from-package --no-push --no-private --yes
 
