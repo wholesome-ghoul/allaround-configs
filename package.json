@@ -3,7 +3,6 @@
   "version": "1.7.0",
   "description": "AllAround configs",
   "author": "Wholesome Ghoul <wholesome.ghoul@gmail.com>",
-  "private": true,
   "repository": {
     "type": "git",
     "url": "https://github.com/wholesome-ghoul/allaround-configs"

@@ -11,5 +11,6 @@
   "files": [
     "dist/**/*"
   ],
-  "scripts": { }
+  "scripts": {},
+  "gitHead": "03526ab5b889deabc70cf8ddc1e67c0e6c6098ce"
 }
