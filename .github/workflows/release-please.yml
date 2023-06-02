@@ -31,11 +31,6 @@ jobs:
           node-version: 18
           registry-url: 'https://registry.npmjs.org'
 
-      - run: npm whoami
-        if: ${{ steps.release.outputs.releases_created }}
-      - run: cat .npmrc
-        if: ${{ steps.release.outputs.releases_created }}
-
       # - name: Authenticate with Registry
       #   run: |
       #     echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" >> .npmrc
@@ -55,3 +50,9 @@ jobs:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
         run: |
           npx lerna publish from-package --no-push --no-private --yes
+
+      - run: npm whoami
+        if: ${{ steps.release.outputs.releases_created }}
+      - run: cat .npmrc
+        if: ${{ steps.release.outputs.releases_created }}
+
