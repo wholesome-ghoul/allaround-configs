@@ -3,9 +3,11 @@
   "version": "0.0.0",
   "description": "AllAround configs",
   "author": "Wholesome Ghoul <wholesome.ghoul@gmail.com>",
-  "repository": "git@github.com-wholesome:wholesome-ghoul/allaround-configs.git",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wholesome-ghoul/allaround-configs"
+  },
   "homepage": "https://github.com/wholesome-ghoul/allaround-configs#readme",
-  "private": true,
   "workspaces": [
     "packages/*"
   ],
