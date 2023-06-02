@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.11.0](https://github.com/wholesome-ghoul/allaround-configs/compare/configs-v1.10.0...configs-v1.11.0) (2023-06-02)
+
+
+### Features
+
+* test release wtf ([a768b6a](https://github.com/wholesome-ghoul/allaround-configs/commit/a768b6a254ce18c5932ade8341c7632811e65a38))
+
 ## [1.10.0](https://github.com/wholesome-ghoul/allaround-configs/compare/configs-v1.9.0...configs-v1.10.0) (2023-06-02)
 
 
