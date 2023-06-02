@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.0](https://github.com/wholesome-ghoul/allaround-configs/compare/configs-v1.1.0...configs-v1.2.0) (2023-06-02)
+
+
+### Features
+
+* test release add lerna ([5690aa1](https://github.com/wholesome-ghoul/allaround-configs/commit/5690aa1a1123811e1856ed4b9a4623a33c0db239))
+
 ## [1.1.0](https://github.com/wholesome-ghoul/allaround-configs/compare/configs-v1.0.0...configs-v1.1.0) (2023-06-02)
 
 
