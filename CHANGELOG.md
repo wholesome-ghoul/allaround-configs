@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.0](https://github.com/wholesome-ghoul/allaround-configs/compare/configs-v1.2.0...configs-v1.3.0) (2023-06-02)
+
+
+### Features
+
+* test release add lock file ([ce4c1b5](https://github.com/wholesome-ghoul/allaround-configs/commit/ce4c1b5c45fbb251e86554bf3286ac440a0f45b2))
+
 ## [1.2.0](https://github.com/wholesome-ghoul/allaround-configs/compare/configs-v1.1.0...configs-v1.2.0) (2023-06-02)
 
 
