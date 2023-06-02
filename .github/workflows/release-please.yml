@@ -43,3 +43,4 @@ jobs:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
         run: |
           npx lerna publish from-package --no-push --no-private --yes
+
