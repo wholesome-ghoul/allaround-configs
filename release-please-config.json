@@ -4,10 +4,10 @@
     ".": {
       "release-type": "node"
     },
-    "./packages/webpack": {
+    "packages/webpack": {
       "release-type": "node"
     },
-    "./packages/tsconfig": {
+    "packages/tsconfig": {
       "release-type": "node"
     }
   }
