@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.12.0](https://github.com/wholesome-ghoul/allaround-configs/compare/configs-webpack-v1.11.0...configs-webpack-v1.12.0) (2023-06-02)
+
+
+### Features
+
+* test release ffs ([746b963](https://github.com/wholesome-ghoul/allaround-configs/commit/746b9639ee6ee96a0058c35f95e799e01d7f6a87))
+* test release finally ([b915a7d](https://github.com/wholesome-ghoul/allaround-configs/commit/b915a7dffef4384dc9bbc51fd0f8657aa4082abb))
+
 ## [1.11.0](https://github.com/wholesome-ghoul/allaround-configs/compare/configs-webpack-v1.10.0...configs-webpack-v1.11.0) (2023-06-02)
 
 
