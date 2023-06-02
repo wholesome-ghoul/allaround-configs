@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.0](https://github.com/wholesome-ghoul/allaround-configs/compare/configs-v1.3.0...configs-v1.4.0) (2023-06-02)
+
+
+### Features
+
+* remove yarn lock ([cf97bea](https://github.com/wholesome-ghoul/allaround-configs/commit/cf97bea97d414712bcbd9edb2d0186f57393dbf0))
+
 ## [1.3.0](https://github.com/wholesome-ghoul/allaround-configs/compare/configs-v1.2.0...configs-v1.3.0) (2023-06-02)
 
 
