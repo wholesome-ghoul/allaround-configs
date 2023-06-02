@@ -1,4 +1,4 @@
 {
-  "packages/webpack": "0.0.1",
-  "packages/tsconfig": "0.0.1"
+  "packages/webpack": "0.0.2",
+  "packages/tsconfig": "0.0.2"
 }
