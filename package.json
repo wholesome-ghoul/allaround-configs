@@ -1,0 +1,13 @@
+{
+  "name": "@allaround/configs",
+  "version": "0.0.0",
+  "description": "AllAround configs",
+  "author": "Wholesome Ghoul <wholesome.ghoul@gmail.com>",
+  "repository": "git@github.com-wholesome:wholesome-ghoul/allaround-configs.git",
+  "homepage": "https://github.com/wholesome-ghoul/allaround-configs#readme",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {}
+}

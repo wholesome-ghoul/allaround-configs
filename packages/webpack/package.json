@@ -1,0 +1,15 @@
+{
+  "name": "@allaround/configs-webpack",
+  "version": "0.0.1",
+  "description": "AllAround webpack configuration",
+  "author": "Wholesome Ghoul <wholesome.ghoul@gmail.com>",
+  "publishConfig": {
+    "access": "public"
+  },
+  "type": "commonjs",
+  "main": "dist/index.js",
+  "files": [
+    "dist/**/*"
+  ],
+  "scripts": { }
+}
