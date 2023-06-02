@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.9.0](https://github.com/wholesome-ghoul/allaround-configs/compare/configs-webpack-v1.8.0...configs-webpack-v1.9.0) (2023-06-02)
+
+
+### Features
+
+* test release wtf ([cb757bc](https://github.com/wholesome-ghoul/allaround-configs/commit/cb757bc85f3241bc49461fe537b2c08b63c16833))
+
 ## [1.8.0](https://github.com/wholesome-ghoul/allaround-configs/compare/configs-webpack-v1.7.0...configs-webpack-v1.8.0) (2023-06-02)
 
 
