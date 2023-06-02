@@ -1,6 +1,6 @@
 {
   "name": "@allaround/configs-webpack",
-  "version": "1.6.0",
+  "version": "1.7.0",
   "description": "AllAround webpack configuration",
   "author": "Wholesome Ghoul <wholesome.ghoul@gmail.com>",
   "publishConfig": {
