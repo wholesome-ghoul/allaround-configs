@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.15.1](https://github.com/wholesome-ghoul/allaround-configs/compare/configs-webpack-v1.15.0...configs-webpack-v1.15.1) (2023-06-03)
+
+
+### Bug Fixes
+
+* missing env variables ([3c7198a](https://github.com/wholesome-ghoul/allaround-configs/commit/3c7198a499b37bffd22f63e74c5e2940222e4534))
+
 ## [1.15.0](https://github.com/wholesome-ghoul/allaround-configs/compare/configs-webpack-v1.14.0...configs-webpack-v1.15.0) (2023-06-03)
 
 

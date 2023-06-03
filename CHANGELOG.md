@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.32.1](https://github.com/wholesome-ghoul/allaround-configs/compare/configs-v1.32.0...configs-v1.32.1) (2023-06-03)
+
+
+### Bug Fixes
+
+* missing env variables ([3c7198a](https://github.com/wholesome-ghoul/allaround-configs/commit/3c7198a499b37bffd22f63e74c5e2940222e4534))
+
 ## [1.32.0](https://github.com/wholesome-ghoul/allaround-configs/compare/configs-v1.31.0...configs-v1.32.0) (2023-06-03)
 
 
