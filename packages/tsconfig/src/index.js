@@ -1,3 +1,3 @@
-const tsconfig = require("./tsconfig.json");
+const tsconfig = require("./tsconfig.build.json");
 
 module.exports = tsconfig

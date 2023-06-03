@@ -11,7 +11,10 @@
   "workspaces": [
     "packages/*"
   ],
-  "scripts": {},
+  "scripts": {
+    "build": "lerna run build",
+    "viz": "npx nx graph"
+  },
   "devDependencies": {
     "lerna": "^6.6.2"
   }

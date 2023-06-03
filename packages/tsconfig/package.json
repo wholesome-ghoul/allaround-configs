@@ -11,6 +11,11 @@
   "files": [
     "dist/**/*"
   ],
-  "scripts": {},
-  "gitHead": "036c2e377a55aca3fd71cf8b08a77910677051f8"
+  "scripts": {
+    "build": "tsc --build --verbose"
+  },
+  "gitHead": "036c2e377a55aca3fd71cf8b08a77910677051f8",
+  "devDependencies": {
+    "typescript": "^5.1.3"
+  }
 }
