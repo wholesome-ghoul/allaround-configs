@@ -1,5 +1,19 @@
 # Changelog
 
+## [1.14.0](https://github.com/wholesome-ghoul/allaround-configs/compare/configs-webpack-v1.13.0...configs-webpack-v1.14.0) (2023-06-03)
+
+
+### Features
+
+* add initial webpack config ([cd0827c](https://github.com/wholesome-ghoul/allaround-configs/commit/cd0827cf8e739a11d7c40e14a2166a755edbbb40))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * devDependencies
+    * @allaround/configs-tsconfig bumped from ^1.1.0 to ^1.3.0
+
 ## [1.13.0](https://github.com/wholesome-ghoul/allaround-configs/compare/configs-webpack-v1.12.0...configs-webpack-v1.13.0) (2023-06-02)
 
 

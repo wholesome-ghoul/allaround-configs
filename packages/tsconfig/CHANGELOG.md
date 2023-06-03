@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.0](https://github.com/wholesome-ghoul/allaround-configs/compare/configs-tsconfig-v1.2.0...configs-tsconfig-v1.3.0) (2023-06-03)
+
+
+### Features
+
+* add initial webpack config ([cd0827c](https://github.com/wholesome-ghoul/allaround-configs/commit/cd0827cf8e739a11d7c40e14a2166a755edbbb40))
+
 ## [1.2.0](https://github.com/wholesome-ghoul/allaround-configs/compare/configs-tsconfig-v1.1.0...configs-tsconfig-v1.2.0) (2023-06-03)
 
 
