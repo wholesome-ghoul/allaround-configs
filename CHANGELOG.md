@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.33.0](https://github.com/wholesome-ghoul/allaround-configs/compare/configs-v1.32.1...configs-v1.33.0) (2023-06-03)
+
+
+### Features
+
+* plugins input ([ea249d0](https://github.com/wholesome-ghoul/allaround-configs/commit/ea249d0d7ee26d818c7112f56cd09c0cd64fa9f6))
+
 ## [1.32.1](https://github.com/wholesome-ghoul/allaround-configs/compare/configs-v1.32.0...configs-v1.32.1) (2023-06-03)
 
 
