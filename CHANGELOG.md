@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.32.0](https://github.com/wholesome-ghoul/allaround-configs/compare/configs-v1.31.0...configs-v1.32.0) (2023-06-03)
+
+
+### Features
+
+* minimal webpack config ([c41908c](https://github.com/wholesome-ghoul/allaround-configs/commit/c41908cfb8a25bfcd6576c96f13232eb3f6d7a2a))
+
 ## [1.31.0](https://github.com/wholesome-ghoul/allaround-configs/compare/configs-v1.30.0...configs-v1.31.0) (2023-06-03)
 
 
