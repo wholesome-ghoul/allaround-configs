@@ -11,6 +11,22 @@
   "files": [
     "dist/**/*"
   ],
-  "scripts": {},
-  "gitHead": "64f90373c0bbb5ca7140a91835efeda9b879cff2"
+  "scripts": {
+    "build": "tsc --build --verbose"
+  },
+  "gitHead": "64f90373c0bbb5ca7140a91835efeda9b879cff2",
+  "devDependencies": {
+    "@allaround/configs-tsconfig": "^1.1.0"
+  },
+  "dependencies": {
+    "@pmmmwh/react-refresh-webpack-plugin": "^0.5.10",
+    "clean-webpack-plugin": "^4.0.0",
+    "css-loader": "^6.8.1",
+    "eslint": "^8.42.0",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-webpack-plugin": "^4.0.1",
+    "fork-ts-checker-webpack-plugin": "^8.0.0",
+    "html-webpack-plugin": "^5.5.1",
+    "mini-css-extract-plugin": "^2.7.6"
+  }
 }
