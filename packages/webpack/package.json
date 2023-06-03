@@ -1,6 +1,6 @@
 {
   "name": "@allaround/configs-webpack",
-  "version": "1.13.0",
+  "version": "1.14.0",
   "description": "AllAround webpack configuration",
   "author": "Wholesome Ghoul <wholesome.ghoul@gmail.com>",
   "publishConfig": {
@@ -16,7 +16,7 @@
   },
   "gitHead": "64f90373c0bbb5ca7140a91835efeda9b879cff2",
   "devDependencies": {
-    "@allaround/configs-tsconfig": "^1.1.0"
+    "@allaround/configs-tsconfig": "^1.3.0"
   },
   "dependencies": {
     "@pmmmwh/react-refresh-webpack-plugin": "^0.5.10",
