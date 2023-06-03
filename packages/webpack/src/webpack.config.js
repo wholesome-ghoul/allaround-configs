@@ -16,9 +16,10 @@ const DEFAULT_OUTPUT = {
 };
 
 const webpackConfig = ({
-  devServer = DEFAULT_DEVSERVER,
-  output = DEFAULT_OUTPUT,
+  devServer = {},
+  output = {},
   rules = [],
+  plugins = [],
   rest = {},
 }) => {
   console.log("configs-webpack __dirname:", __dirname);
@@ -26,8 +27,14 @@ const webpackConfig = ({
   return {
     entry: "./src/index.tsx",
     mode: IS_PROD ? "production" : "development",
-    output,
-    devServer,
+    output: {
+      ...DEFAULT_OUTPUT,
+      ...output,
+    },
+    devServer: {
+      ...DEFAULT_DEVSERVER,
+      ...devServer,
+    },
     devtool: IS_DEV ? "source-map" : false,
     module: {
       rules,
@@ -36,6 +43,7 @@ const webpackConfig = ({
     //   asyncWebAssembly: true,
     // },
     resolve: { extensions: [".js", ".ts", ".tsx"] },
+    plugins,
     ...rest,
   };
 };
