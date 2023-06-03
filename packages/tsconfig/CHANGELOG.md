@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.0](https://github.com/wholesome-ghoul/allaround-configs/compare/configs-tsconfig-v1.1.0...configs-tsconfig-v1.2.0) (2023-06-03)
+
+
+### Features
+
+* add prepare command ([44ad565](https://github.com/wholesome-ghoul/allaround-configs/commit/44ad56567cc646d7b4546cca2d0e6cbb1173c8c5))
+
 ## [1.1.0](https://github.com/wholesome-ghoul/allaround-configs/compare/configs-tsconfig-v1.0.0...configs-tsconfig-v1.1.0) (2023-06-03)
 
 
