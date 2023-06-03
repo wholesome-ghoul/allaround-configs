@@ -1,4 +1,6 @@
 const PORT = process.env.PORT || 3000;
+const IS_PROD = process.env.STAGING_ENV === "prod";
+const IS_DEV = process.env.STAGING_ENV === "dev";
 
 const DEFAULT_DEVSERVER = {
   port: PORT,
@@ -7,8 +9,10 @@ const DEFAULT_DEVSERVER = {
 };
 
 const DEFAULT_OUTPUT = {
-  filename: isProd ? "[name].[contenthash:8].js" : "[name].bundle.js",
-  chunkFilename: isProd ? "[name].[contenthash:8].chunk.js" : "[name].chunk.js",
+  filename: IS_PROD ? "[name].[contenthash:8].js" : "[name].bundle.js",
+  chunkFilename: IS_PROD
+    ? "[name].[contenthash:8].chunk.js"
+    : "[name].chunk.js",
 };
 
 const webpackConfig = ({
@@ -17,17 +21,14 @@ const webpackConfig = ({
   rules = [],
   rest = {},
 }) => {
-  const isProd = process.env.STAGING_ENV === "prod";
-  const isDev = process.env.STAGING_ENV === "dev";
-
   console.log("configs-webpack __dirname:", __dirname);
 
   return {
     entry: "./src/index.tsx",
-    mode: isProd ? "production" : "development",
+    mode: IS_PROD ? "production" : "development",
     output,
     devServer,
-    devtool: isDev ? "source-map" : false,
+    devtool: IS_DEV ? "source-map" : false,
     module: {
       rules,
     },
