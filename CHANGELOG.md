@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.29.0](https://github.com/wholesome-ghoul/allaround-configs/compare/configs-v1.28.0...configs-v1.29.0) (2023-06-03)
+
+
+### Features
+
+* add initial tsconfig ([7bdcf80](https://github.com/wholesome-ghoul/allaround-configs/commit/7bdcf80fcb794e8f4329f0cd50ad73cb06393d68))
+
 ## [1.28.0](https://github.com/wholesome-ghoul/allaround-configs/compare/configs-v1.27.0...configs-v1.28.0) (2023-06-02)
 
 
